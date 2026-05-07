@@ -209,14 +209,17 @@ async def main():
                 print(f"  ℹ️ No new messages for {ch_name}")
                 continue
 
-            # Attach parsed UTC datetime and channel name
+            # Attach parsed UTC datetime (or None) and channel name
             for m in msgs:
-                dt_utc = datetime(2000,1,1, tzinfo=ZoneInfo("UTC"))
-                if m["datetime"]:
+                dt_utc = None
+                if m.get("datetime"):
                     try:
                         dt_utc = datetime.fromisoformat(m["datetime"]).astimezone(ZoneInfo("UTC"))
                     except:
-                        pass
+                        print(f"    ⚠️ Cannot parse datetime '{m['datetime']}' for post {m['id']}")
+                else:
+                    print(f"    ⚠️ No datetime element for post {m['id']}")
+
                 m["_dt_utc"] = dt_utc
                 m["_channel"] = clean_name
 
@@ -232,18 +235,31 @@ async def main():
         save_state(state)
         return
 
-    # Sort all messages by UTC time, newest first
-    all_messages.sort(key=lambda m: m["_dt_utc"], reverse=True)
+    # Separate messages with and without valid datetime
+    dated   = [m for m in all_messages if m["_dt_utc"] is not None]
+    undated = [m for m in all_messages if m["_dt_utc"] is None]
+
+    # Sort dated messages newest first
+    dated.sort(key=lambda m: m["_dt_utc"], reverse=True)
+    # Sort undated messages by post ID descending (best approximate order)
+    undated.sort(key=lambda m: m["id"], reverse=True)
+
+    # Final order: all properly dated messages first, then undated ones
+    sorted_messages = dated + undated
 
     all_entries = []
-    for msg in all_messages:
+    for msg in sorted_messages:
         ch = msg["_channel"]
         dt_utc = msg["_dt_utc"]
         media_md = None
         if msg["media_url"]:
             media_md = download_media(msg["media_url"], ch, msg["id"])
 
-        jalali_str = convert_to_jalali(dt_utc)
+        if dt_utc:
+            jalali_str = convert_to_jalali(dt_utc)
+        else:
+            # Use a placeholder that still shows the channel and ID
+            jalali_str = f"???-??-?? ??:?? (post {msg['id']})"
 
         header = f"## {jalali_str} — {ch}\n"
         if media_md:
@@ -258,7 +274,7 @@ async def main():
         entry = f"{header}> {quoted}\n\n"
         all_entries.append(entry)
 
-    # Update state per channel
+    # Update state per channel (use the maximum ID among all fetched messages)
     for ch_name in channels:
         clean_name = ch_name.lstrip("@")
         ch_msgs = [m for m in all_messages if m["_channel"] == clean_name]
@@ -270,6 +286,7 @@ async def main():
 
     if all_entries:
         existing = load_existing_md()
+        # Prepend new entries to existing content – old messages remain untouched
         combined = "".join(all_entries) + existing
         save_md(combined)
         print(f"✅ Added {len(all_entries)} new messages, sorted by time.")
