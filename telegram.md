@@ -7,6 +7,64 @@
 <!-- MSG START -->
 
 ---
+📅 بروزرسانی: 1405/02/19 01:12
+---
+
+## VahidOOnLine — post 238977
+
+<div align="center">
+  <img src="telegram/content/VahidOOnLine_238977_1778276564.jpg" alt="Photo">
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+سرگئی لاوروف، وزیر خارجه روسیه، در گفت‌وگوی تلفنی با شیخ عبدالله بن زاید آل نهیان، وزیر خارجه امارات متحده عربی، گفت مذاکرات آمریکا و ایران باید حمایت شود تا ازسرگیری درگیری‌ها در خاورمیانه جلوگیری شود. او تاکید کرد که مسکو نمی‌خواهد روند تثبیت اوضاع به خطر بیفتد.
+‌🏁 🇬🇧 IranintlTV
+
+🤖 @VahidOOnLine
+</div>
+
+## IranIntlTV — post 336207
+
+<div align="center">
+  <img src="telegram/content/IranIntlTV_336207_1778276565.jpg" alt="Photo">
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+سرگئی لاوروف، وزیر خارجه روسیه، در گفت‌وگوی تلفنی با شیخ عبدالله بن زاید آل نهیان، وزیر خارجه امارات متحده عربی، گفت مذاکرات آمریکا و ایران باید حمایت شود تا ازسرگیری درگیری‌ها در خاورمیانه جلوگیری شود. او تاکید کرد که مسکو نمی‌خواهد روند تثبیت اوضاع به خطر بیفتد.
+https://iranintl.com/202605089627
+</div>
+
+## alonews — post 118781
+
+<div align="center">
+  <a href="telegram/content/alonews_118781_1778276566.webm" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+👈دو بلاگر بسیجی در تخت جمشید ویدیو گرفتند که ما اصالت داریم و افتخار میکنیم، در حالی که در این بنای تاریخی به علت شرایط نگهداری بد، تماما علف‌ هرز درآمده و بناها درحال نابودی است
+
+
+🔴قسم حضرت عباسو باور کنیم یا دم خروس رو
+
+
+✅ @AloNews خبر جنگ
+</div>
+
+## alonews — post 118780
+
+<div align="center">
+  <a href="telegram/content/alonews_118780_1778276566.webm" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+👈جهان پهلوان رسول خادم ماشین خودش رو فروخت تا خونه یک پیرزن در شرق کشور که سقف اون درحال ریختن بود رو تعمیر کنه
+
+
+🔴چندتا از نزدیکای رسول خادم بعد از اینکه فهمیدن آقا رسول مدتیه ماشین نداره به این قضیه پی بردن
+
+قهرمان واقعی تویی مرد❤️
+
+
+✅ @AloNews خبر جنگ
+</div>
+
+---
 📅 بروزرسانی: 1405/02/19 01:02
 ---
 
