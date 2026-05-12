@@ -156,12 +156,12 @@
 3. ورودی‌ها را وارد کنید. **فرمت:** `URL v/a رزولوشن fps` (fps اختیاری)
 
 **مثال‌ها:**
-+++
+```
 https://www.youtube.com/watch?v=dfdXGw1xY9A v 480
 https://www.youtube.com/watch?v=dfdXGw1xY9A v 1080 60
 https://www.youtube.com/watch?v=dfdXGw1xY9A a max
 https://www.youtube.com/watch?v=VIDEO_ID v 4k, https://www.youtube.com/watch?v=VIDEO_ID a 128
-+++
+```
 
 - `v` = ویدیو، `a` = صدا
 - رزولوشن: `max`, `min`, `1080`, `2k`, `4k` و غیره
@@ -184,9 +184,9 @@ https://www.youtube.com/watch?v=VIDEO_ID v 4k, https://www.youtube.com/watch?v=V
 3. لینک‌های اینستاگرام را با کاما، فاصله یا خط جدید جدا کنید
 
 **مثال:**
-+++
+```
 https://www.instagram.com/p/DX2y7oLDFOb/, https://www.instagram.com/reel/DVRXhn0gjL3/, https://www.instagram.com/p/DX6US4uCNGb/
-+++
+```
 
 4. روی **Run workflow** کلیک کنید → فایل ZIP در پوشه **`instagram/`** قرار می‌گیرد (تا ۱۰+ لینک در یک ZIP)
 
@@ -205,9 +205,9 @@ https://www.instagram.com/p/DX2y7oLDFOb/, https://www.instagram.com/reel/DVRXhn0
 3. لینک‌های X را با کاما، فاصله یا خط جدید جدا کنید
 
 **مثال:**
-+++
+```
 https://x.com/username/status/123456789, https://x.com/otheruser/status/987654321
-+++
+```
 
 4. روی **Run workflow** کلیک کنید → ZIP در پوشه **`x/`** قرار می‌گیرد
 
@@ -222,9 +222,9 @@ https://x.com/username/status/123456789, https://x.com/otheruser/status/98765432
 3. لینک‌های مستقیم (`.zip`, `.mp4`, `.apk`, `.pdf` و غیره) را بچسبانید
 
 **مثال:**
-+++
+```
 https://example.com/path/to/large-file.zip, https://example.com/another-file.mp4
-+++
+```
 
 4. روی **Run workflow** کلیک کنید → فایل‌ها در **`direct/`** (بزرگتر از ۹۹MB به ZIP چندبخشی تقسیم می‌شوند)
 
@@ -274,9 +274,9 @@ https://example.com/path/to/large-file.zip, https://example.com/another-file.mp4
 > ✅ `channelname` — درست
 
 **مثال:**
-+++
+```
 ["VahidOOnLine", "mwarmonitor", "pm_afshaa", "iaghapour", "DEJradio", "mamlekate", "kianmeli1"]
-+++
+```
 
 > ⚠️ فقط کانال‌های **عمومی (Public)** کار می‌کنند. کانال‌های خصوصی قابل دسترسی نیستند.
 
@@ -298,11 +298,11 @@ https://example.com/path/to/large-file.zip, https://example.com/another-file.mp4
 3. آدرس کامل (حتماً با `https://` شروع شود) را وارد کنید
 
 **مثال‌ها:**
-+++
+```
 https://example.com/article/my-post
 https://developer.mozilla.org/en-US/docs/Web/JavaScript
 https://github.com/ProAlit/aio-downloader
-+++
+```
 
 4. کلیک کنید → ظرف ۵–۱۰ دقیقه PDF در پوشه **`website/`** ظاهر می‌شود
 
@@ -347,10 +347,10 @@ https://github.com/ProAlit/aio-downloader
 > ℹ️ **نکته:** برای سایت‌هایی مثل اینستاگرام و تیک‌تاک که به کوکی نیاز دارند، ابتدا کوکی‌ها را به Secrets اضافه کنید (مطابق بخش ۳) و سپس در دستور `--cookies /path/to/cookies.txt` را قرار دهید. لیچر فایل کوکی را از Secret می‌خواند و در مسیر استاندارد ذخیره می‌کند.
 
 #### 🟢 حالت میانبر را فراموش نکنید:
-+++
+```
 https://www.youtube.com/watch?v=dfdXGw1xY9A v 1080
 https://soundcloud.com/artist/track a 320
-+++
+```
 
 1. به **Actions** → **leecher** بروید
 2. ورودی‌ها را وارد کنید (می‌توانید ترکیبی از لینک‌های میانبر و خام را با هم استفاده کنید)
@@ -413,17 +413,17 @@ https://soundcloud.com/artist/track a 320
 | **merge_splits** | ادغام APKهای Split شده در یک فایل؟ (پیش‌فرض: فعال) | ❌ اختیاری |
 
 **مثال‌ها:**
-+++
+```
 app: com.google.android.youtube
 architecture: arm64
 merge_splits: true
-+++
+```
 
-+++
+```
 app: https://play.google.com/store/apps/details?id=com.spotify.music
 architecture: armv7
 merge_splits: false
-+++
+```
 
 4. روی **Run workflow** کلیک کنید → فایل‌های APK (ZIP شده) در پوشه **`google-play/`** قرار می‌گیرند
 
@@ -471,16 +471,16 @@ merge_splits: false
 
 ##### گام سوم: دریافت URL
 در لاگ گردش‌کار، خطی مشابه زیر ظاهر می‌شود:
-+++
+```
 https://random-name.trycloudflare.com
-+++
+```
 این URL خروجی نود شماست — آن را کپی کنید.
 
 ##### گام چهارم: تنظیم در MasterHttpRelayVPN
 
 فایل `config.json` پروژه MasterHttpRelayVPN خود را باز کنید و بخش `exit_node` را به این صورت تنظیم کنید:
 
-+++
+```
 "exit_node": {
   "enabled": true,
   "provider": "vps",
@@ -489,7 +489,7 @@ https://random-name.trycloudflare.com
   "mode": "full",
   "hosts": ["chatgpt.com", "openai.com", "claude.ai", "anthropic.com"]
 }
-+++
+```
 
 | فیلد | مقدار |
 |-------|--------|
@@ -713,12 +713,12 @@ Click the **Fork** button at the top‑right of this page.
 3. Enter your inputs. **Format:** `URL v/a resolution fps` (fps optional)
 
 **Examples:**
-+++
+```
 https://www.youtube.com/watch?v=dfdXGw1xY9A v 480
 https://www.youtube.com/watch?v=dfdXGw1xY9A v 1080 60
 https://www.youtube.com/watch?v=dfdXGw1xY9A a max
 https://www.youtube.com/watch?v=VIDEO_ID v 4k, https://www.youtube.com/watch?v=VIDEO_ID a 128
-+++
+```
 
 - `v` = video, `a` = audio
 - Resolution: `max`, `min`, `1080`, `2k`, `4k`, etc.
@@ -741,9 +741,9 @@ Downloads **all media** from posts, reels, stories, highlights, and profiles —
 3. Paste Instagram links — separated by commas, spaces, or newlines
 
 **Example:**
-+++
+```
 https://www.instagram.com/p/DX2y7oLDFOb/, https://www.instagram.com/reel/DVRXhn0gjL3/, https://www.instagram.com/p/DX6US4uCNGb/
-+++
+```
 
 4. Click **Run workflow** → ZIP appears in the **`instagram/`** folder (up to 10+ links bundled in one ZIP)
 
@@ -762,9 +762,9 @@ Downloads **all media** (images, videos) from tweets and profiles.
 3. Paste X links — separated by commas, spaces, or newlines
 
 **Example:**
-+++
+```
 https://x.com/username/status/123456789, https://x.com/otheruser/status/987654321
-+++
+```
 
 4. Click **Run workflow** → ZIP appears in the **`x/`** folder
 
@@ -779,9 +779,9 @@ Downloads **any file** from a direct URL using `aria2c` (16 parallel connections
 3. Paste direct download URLs (e.g., `.zip`, `.mp4`, `.apk`, `.pdf`), separated by commas, spaces, or newlines
 
 **Example:**
-+++
+```
 https://example.com/path/to/large-file.zip, https://example.com/another-file.mp4
-+++
+```
 
 4. Click **Run workflow** → files appear in **`direct/`** (split into 99 MB parts if needed)
 
@@ -831,9 +831,9 @@ Edit `telegram/channels.json` directly on GitHub (click the pencil icon ✏️).
 > ✅ `channelname` — correct
 
 **Example:**
-+++
+```
 ["VahidOOnLine", "mwarmonitor", "pm_afshaa", "iaghapour", "DEJradio", "mamlekate", "kianmeli1"]
-+++
+```
 
 > ⚠️ Only **public** channels work. Private channels cannot be accessed.
 
@@ -855,11 +855,11 @@ Turns any **public website** into a single, polished A4 PDF document. Uses **Pla
 3. Enter the full URL (must start with `https://`)
 
 **Examples:**
-+++
+```
 https://example.com/article/my-post
 https://developer.mozilla.org/en-US/docs/Web/JavaScript
 https://github.com/ProAlit/aio-downloader
-+++
+```
 
 4. Click **Run workflow** → within 5–10 minutes, the PDF appears in the **`website/`** folder
 
@@ -904,10 +904,10 @@ You are not limited to YouTube, nor to predefined settings. **You're in full con
 > ℹ️ **Note:** For sites like Instagram and TikTok that require cookies, first add your cookies to Secrets (section 3) and then include `--cookies /path/to/cookies.txt`. Leecher automatically reads the cookie secret and saves it in the expected location.
 
 #### 🟢 Don't forget Shortcut Mode:
-+++
+```
 https://www.youtube.com/watch?v=dfdXGw1xY9A v 1080
 https://soundcloud.com/artist/track a 320
-+++
+```
 
 1. Go to **Actions** → **leecher**
 2. Enter your inputs (you can mix shortcut and raw links in the same run)
@@ -970,17 +970,17 @@ This workflow uses the `gplay-apk-downloader` tool to legally fetch installable 
 | **merge_splits** | Merge split APKs into one file? (default: enabled) | ❌ Optional |
 
 **Examples:**
-+++
+```
 app: com.google.android.youtube
 architecture: arm64
 merge_splits: true
-+++
+```
 
-+++
+```
 app: https://play.google.com/store/apps/details?id=com.spotify.music
 architecture: armv7
 merge_splits: false
-+++
+```
 
 4. Click **Run workflow** → APK files (zipped) appear in the **`google-play/`** folder
 
@@ -1028,16 +1028,16 @@ This workflow starts an HTTP relay server on port 8181, exposes it securely to t
 
 ##### Step 3: Get Your URL
 In the workflow log, you will see a line like:
-+++
+```
 https://random-name.trycloudflare.com
-+++
+```
 This is your exit node URL — copy it.
 
 ##### Step 4: Configure MasterHttpRelayVPN
 
 Open your MasterHttpRelayVPN `config.json` and configure the `exit_node` section:
 
-+++
+```
 "exit_node": {
   "enabled": true,
   "provider": "vps",
@@ -1046,7 +1046,7 @@ Open your MasterHttpRelayVPN `config.json` and configure the `exit_node` section
   "mode": "full",
   "hosts": ["chatgpt.com", "openai.com", "claude.ai", "anthropic.com"]
 }
-+++
+```
 
 | Field | Value |
 |-------|--------|
