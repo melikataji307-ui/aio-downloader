@@ -7,6 +7,128 @@
 <!-- MSG START -->
 
 ---
+📅 بروزرسانی: 1405/02/22 18:03
+---
+
+## VahidOOnLine — post 239717
+
+<div align="center">
+  <a href="telegram/content/VahidOOnLine_239717_1778596435.mp4" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+♦️دونالد ترامپ در آستانه سفر به چین، در گفتگو با برنامه پادکست «سید و دوستان در صبح» سید روزنبرگ گفت محاصره ایران ادامه دارد و تهران به منابع مالی دسترسی ندارد. او همچنین گفت نیروی دریایی و نیروی هوایی ایران نابود شده‌اند و افزود: «فقط مسئله زمان است.»
+
+ترامپ افزود آمریکا اجازه نخواهد داد ایران به سلاح هسته‌ای دست پیدا کند، چون به گفته او، جمهوری اسلامی از آن استفاده خواهد کرد. رئیس‌جمهوری آمریکا همچنین گفت اگر ایران به سلاح هسته‌ای دست پیدا کند، «فاجعه‌ای باورنکردنی» رخ خواهد داد.
+‌🇸🇦 Indypersian
+
+🤖 @VahidOOnLine
+</div>
+
+## pm_afshaa — post 90630
+
+
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+سخنگوی دولت: تا سایه‌ جنگ دور نشه اینترنت وصل نمیشه، وقتی دور شد به تدریج وصل میشه
+
+
+💧 Rainbet.com the #1 Non-KYC Crypto Casino & Sportsbook @rainbetcom
+
+😁 @Pm_Afshaa
+</div>
+
+## Shin_Persian — post 5968
+
+<div align="center">
+  <img src="telegram/content/Shin_Persian_5968_1778596436.jpg" alt="Photo">
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+Shin ✓ @hey_itsmyturn Tue, 12 May 2026 14:29:01 UTC #Kuwait 🇰🇼 #Iran Kuwait Thwarts IRGC Infiltration & Hostile Plot Kuwait’s Ministry of Interior has released chilling details regarding the 4 infiltrators captured earlier this month. Interrogations confirm…
+</div>
+
+## Shin_Persian — post 5967
+
+
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+Shin ✓ @hey_itsmyturn
+Tue, 12 May 2026 14:29:01 UTC
+
+#Kuwait 🇰🇼 #Iran
+Kuwait Thwarts IRGC Infiltration & Hostile Plot
+
+Kuwait’s Ministry of Interior has released chilling details regarding the 4 infiltrators captured earlier this month. Interrogations confirm they are members of IRGC sent to carry out "hostile acts" within the country.
+
+The Arrested IRGC Members:
+Naval Colonel: Amir Hussein Abd Muhammad Zarai
+Naval Colonel: Abdul Samad Yadollah Qanawati
+Naval Captain: Ahmed Jamshid Ghulam Reza Zulfiqari
+First Lieutenant: Muhammad Hussein Sohrab Foroughi Rad
+
+Two others, Captain Mansour Qambari and boat pilot Abdulali Siamari, fled the scene during the initial skirmish
+
+The incident has happened Bubiyan Island. The group used a rented fishing boat to enter Kuwaiti territorial waters illegally.
+
+Upon discovery, the group opened fire on Kuwaiti Armed Forces. One Kuwaiti soldier was injured in the line of duty before the 4 suspects were neutralized and detained.
+
+Source: https://24.ae/article/957997/
+
+فارسی
+
+#کوییت 🇰🇼 #ایران
+کوییت نفوذ سپاه پاسداران (سپاه پاسداران انقلاب اسلامی) و توطئه‌ای خصمانه را خنثی کرد
+
+وزارت کشور کوییت جزئیات تکان‌دهنده‌ای را در مورد ۴ نفوذی که اوایل این ماه دستگیر شده بودند، منتشر کرده است. بازجویی‌ها تأیید می‌کند که آن‌ها اعضای سپاه پاسداران هستند که برای انجام «اعمال خصمانه» در داخل کشور اعزام شده بودند.
+
+اعضای دستگیر شده سپاه پاسداران:
+سرهنگ دریایی: امیرحسین عبدالمحمد زارعی
+سرهنگ دریایی: عبدالصمد یدالله قنواتی
+ناخدا: احمد جمشید غلامرضا ذوالفقاری
+ستوان یکم: محمدحسین سهراب فروغی راد
+
+دو نفر دیگر، ناخدا منصور قنبری و هدایت‌کننده قایق، عبدالعلی سیامری، در جریان درگیری اولیه از صحنه گریختند.
+
+این حادثه در جزیره بوبیان رخ داده است. این گروه از یک قایق ماهیگیری اجاره‌ای برای ورود غیرقانونی به آب‌های سرزمینی کوییت استفاده کرده بودند.
+
+پس از شناسایی، این گروه به سوی نیروهای مسلح کوییت آتش گشودند. یک سرباز کویتی در حین انجام وظیفه مجروح شد و پس از آن، ۴ مظنون مهار و بازداشت شدند.
+
+منبع: https://24.ae/article/957997/
+
+𝕏 · @shin_persian
+</div>
+
+## IranianMinds — post 20008
+
+
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+🔴وزیر دوم بریتانیا از دولت کی‌ر استارمر استعفاء داد.
+
+@IranianMinds
+</div>
+
+## alonews — post 119515
+
+<div align="center">
+  <a href="telegram/content/alonews_119515_1778596436.webm" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+👈تانکر ترکز: امکان ایجاد مسیر جایگزین برای تنگه هرمز در خاک عمان وجود دارد
+
+
+✅ @AloNews خبر جنگ
+</div>
+
+## alonews — post 119514
+
+<div align="center">
+  <a href="telegram/content/alonews_119514_1778596436.webm" target="_blank">🎬 Download video</a>
+</div>
+<div dir='rtl' style='font-family: "Vazirmatn", Tahoma, sans-serif;'>
+👈تورم در آمریکا 3.8% اعلام شد
+
+
+✅ @AloNews خبر جنگ
+</div>
+
+---
 📅 بروزرسانی: 1405/02/22 17:54
 ---
 
